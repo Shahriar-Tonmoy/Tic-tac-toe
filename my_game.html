@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="myStyle.css">
+</head>
+
+<body>
+    <div class="container">
+        <button onclick="draw_circle()" style="margin-right: 20px;">Circle</button>
+        <div class="box">
+            <div class="row">
+                <div onclick="select_box_1()" class="col-md-4">
+                    <img id="box-1">
+                </div>
+                <div onclick="select_box_2()" class="col-md-4">
+                    <img id="box-2">
+                </div>
+                <div onclick="select_box_3()" class="col-md-4">
+                    <img id="box-3">
+                </div>
+            </div>
+            <div class="row">
+                <div onclick="select_box_4()" class="col-md-4">
+                    <img id="box-4">
+                </div>
+                <div onclick="select_box_5()" class="col-md-4">
+                    <img id="box-5">
+                </div>
+                <div onclick="select_box_6()" class="col-md-4">
+                    <img id="box-6">
+                </div>
+            </div>
+            <div class="row">
+                <div onclick="select_box_7()" class="col-md-4">
+                    <img id="box-7">
+                </div>
+                <div onclick="select_box_8()" class="col-md-4">
+                    <img id="box-8">
+                </div>
+                <div onclick="select_box_9()" class="col-md-4">
+                    <img id="box-9">
+                </div>
+            </div>
+        </div>
+        <button onclick="draw_cross()" style="margin-left: 20px;">Cross</button>
+    </div>
+    <script src="myScript.js"></script>
+</body>
+
+</html>
